@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Sum-of-3-numbers", "01-Sum-of-3-numbers\01-Sum-of-3-numbers.csproj", "{E0073F92-F336-4F7F-A08C-7AC8D818165D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Print-company-information", "02-Print-company-information\02-Print-company-information.csproj", "{8E77DC08-6D70-4C2F-909B-66DA2B972341}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Circle-Perimeter-and-Area", "03-Circle-Perimeter-and-Area\03-Circle-Perimeter-and-Area.csproj", "{271648B8-4596-4444-80F9-0ED6999859B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Number-comparer", "04-Number-comparer\04-Number-comparer.csproj", "{A89A2ADA-D5F2-4286-A72E-05F21C592B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Formatting-numbers", "05-Formatting-numbers\05-Formatting-numbers.csproj", "{B5FF8ECF-A6D0-4453-9A9A-31454D8039F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Quadratic-equation", "06-Quadratic-equation\06-Quadratic-equation.csproj", "{308DF8EE-60C2-4AD2-9581-B973AC91C33D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,18 @@ Global
 		{271648B8-4596-4444-80F9-0ED6999859B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{271648B8-4596-4444-80F9-0ED6999859B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{271648B8-4596-4444-80F9-0ED6999859B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89A2ADA-D5F2-4286-A72E-05F21C592B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89A2ADA-D5F2-4286-A72E-05F21C592B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89A2ADA-D5F2-4286-A72E-05F21C592B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89A2ADA-D5F2-4286-A72E-05F21C592B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FF8ECF-A6D0-4453-9A9A-31454D8039F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FF8ECF-A6D0-4453-9A9A-31454D8039F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FF8ECF-A6D0-4453-9A9A-31454D8039F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FF8ECF-A6D0-4453-9A9A-31454D8039F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308DF8EE-60C2-4AD2-9581-B973AC91C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308DF8EE-60C2-4AD2-9581-B973AC91C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308DF8EE-60C2-4AD2-9581-B973AC91C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308DF8EE-60C2-4AD2-9581-B973AC91C33D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

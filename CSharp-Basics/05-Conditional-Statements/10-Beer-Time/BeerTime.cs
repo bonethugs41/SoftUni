@@ -10,5 +10,28 @@ class BeerTime
 {
     static void Main()
     {
+        Console.Title = "Beer time";
+        DateTime startTime = DateTime.Parse("1:00 pm");
+        DateTime endTime = DateTime.Parse("3:00 am");
+        string inputTime = Console.ReadLine();
+        DateTime time;
+
+        if (DateTime.TryParse(inputTime, out time))
+        {
+            if (time > startTime || time < endTime)
+            {
+                Console.WriteLine("beer time");
+            }
+            else
+            {
+                Console.WriteLine("non-beer time");
+            }
+        }
+        else
+        {
+            Console.WriteLine("invalid time");
+        }
+        
+
     }
 }
